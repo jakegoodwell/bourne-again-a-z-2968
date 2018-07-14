@@ -1,0 +1,152 @@
+</script>
+<!--[if lte IE 6]><script type="text/javascript" src="style/imports/minmax.js"></script><![endif]-->
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=2280&amp;type=atom" title="Atom topic feed" />
+</head>
+
+<body>
+
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div><!-- Top Corners --></div></div>
+<div class="punwrap">
+
+<div id="brdheader" class="block">
+	<div class="box">
+		<div id="brdtitle" class="inbox">
+			<h1><a href="index.php">SS64 Forum</a></h1>
+			<div id="brddesc"><a href="https://ss64.com">(  SS64  )</a></div>
+		</div>
+		<div id="brdmenu" class="inbox">
+			<ul>
+				<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+				<li id="navextra1"><a href="https://ss64.org/search.php?action=show_recent">Latest Posts</a></li>
+				<li id="navuserlist"><a href="userlist.php">User list</a></li>
+				<li id="navsearch"><a href="search.php">Search</a></li>
+				<li id="navprofile"><a href="profile.php?id=4505">Profile</a></li>
+				<li id="navlogout"><a href="login.php?action=out&amp;id=4505&amp;csrf_token=5db7e67e4723e4d63636d4dd1c44d53338d66db5">Logout</a></li>
+			</ul>
+		</div>
+		<div id="brdwelcome" class="inbox">
+			<ul class="conl">
+				<li><span>Logged in as <strong>jakegoodwell</strong></span></li>
+				<li><span>Last visit: Yesterday 17:06</span></li>
+			</ul>
+			<ul class="conr">
+				<li><span>Topics: <a href="search.php?action=show_replies" title="Find topics you have posted to.">Posted</a> | <a href="search.php?action=show_new" title="Find topics with new posts since your last visit.">New</a> | <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+			</ul>
+			<div class="clearer"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="brdmain">
+<div class="linkst">
+	<div class="inbox crumbsplus">
+		<ul class="crumbs">
+			<li><a href="index.php">Index</a></li>
+			<li><span>»&#160;</span><a href="viewforum.php?id=2">Windows CMD Shell</a></li>
+			<li><span>»&#160;</span><strong><a href="viewtopic.php?id=2280">Parse xml files and create symbolic links with results</a></strong></li>
+		</ul>
+		<div class="pagepost">
+			<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+			<p class="postlink conr"><a href="post.php?tid=2280">Post reply</a></p>
+		</div>
+		<div class="clearer"></div>
+	</div>
+</div>
+
+<div id="p9723" class="blockpost rowodd firstpost blockpost1">
+	<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=9723#p9723">16 Jun 2018 05:21</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong><a href="profile.php?id=4495">JohnP</a></strong></dt>
+						<dd class="usertitle"><strong>New Member</strong></dd>
+						<dd><span>Registered: 16 Jun 2018</span></dd>
+						<dd><span>Posts: 2</span></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Parse xml files and create symbolic links with results</h3>
+					<div class="postmsg">
+						<p>Hello,</p><p>The goal is to create symbolic links using 2 xml databases. Both DDBB have the same structure, only two fields &quot;file name&quot; and &quot;checksum&quot;.<br />As an example real.xml points to the actual files, the ones stored in HD(s) and softl.xml stores the paths, where the links and their paths have to be created, and their checksums to compare to the real.xml.</p><p>The script would have to get the hash from each line in softl.xml and compare it to the hash in real.xml, then create the path, if needed, and a symbolic link using softl.xml path related to the found hash.</p><p>real.xml</p><div class="codebox"><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;db&gt;
+  &lt;files&gt;
+    &lt;file name=&quot;g:\real\abandoned_places-wallpaper-2560x1440.jpg&quot; checksum=&quot;770319cee2c2ddfa5c47651c460e443677918433&quot; /&gt;
+    &lt;file name=&quot;g:\real\autumn_37-wallpaper-2560x1440.jpg&quot; checksum=&quot;2594cb5313fe01f577136d7bf9d42ebea5536b0e&quot; /&gt;
+    &lt;file name=&quot;f:\real\bg 45\autumn_blossom-wallpaper    2560x1440.jpg&quot; checksum=&quot;9af4911807b56713031871979e8710b07d5a732b&quot; /&gt;
+    &lt;file name=&quot;f:\real\bg 45\blue_texture-wallpaper-2560x1440.jpg&quot; checksum=&quot;5860f080c21002a6b7d55fe290d9faf598d1e8a5&quot; /&gt;
+    &lt;file name=&quot;f:\real\bg2\armenia_tanahat_hayk_photography_abandoned-wallpaper-2560x1440.jpg&quot; checksum=&quot;7e00714771da30e5f6f0929af94b8cccceca8b1f&quot; /&gt;
+    &lt;file name=&quot;f:\real\bg2\back_in time-wallpaper-2560x1440.jpg&quot; checksum=&quot;0fa63e654c98c80cca7a888bf6963dbc3318fb7e&quot; /&gt;
+    &lt;file name=&quot;f:\real\bg2\CINEBENCHR15.038.zip&quot; checksum=&quot;29c23f58c628b63df5099ff44378b501a8fa3b9e&quot; /&gt;
+    &lt;file name=&quot;f:\real\ChecksumVerifier.exe&quot; checksum=&quot;f7463fdd181aca1830d0ceba3674e396fa15a61d&quot; /&gt;
+  &lt;/files&gt;
+&lt;/db&gt;</code></pre></div><p>softl.xml</p><div class="codebox"><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;db&gt;
+  &lt;files&gt;
+    &lt;file name=&quot;l:\softl\ChecksumVerifier.exe&quot; checksum=&quot;f7463fdd181aca1830d0ceba3674e396fa15a61d&quot; /&gt;
+    &lt;file name=&quot;l:\softl\file\here\abandoned_places-wallpaper-2560x1440.jpg&quot; checksum=&quot;770319cee2c2ddfa5c47651c460e443677918433&quot; /&gt;
+    &lt;file name=&quot;l:\softl\old\yeste rday\back in time.jpg&quot; checksum=&quot;0fa63e654c98c80cca7a888bf6963dbc3318fb7e&quot; /&gt;
+    &lt;file name=&quot;l:\softl\old\yeste rday\back no time\autumn_blossom-wallpaper.jpg&quot; checksum=&quot;9af4911807b56713031871979e8710b07d5a732b&quot; /&gt;
+    &lt;file name=&quot;D:\To be removed\old\yesterday images\back in time.jpg&quot; checksum=&quot;0fa63e654c98c80cca7a888bf6963dbc3318fb7e&quot; /&gt;
+    &lt;file name=&quot;l:\softl\old\yesterday images\back no time\autumn_blossom-wallpaper.jpg&quot; checksum=&quot;9af4911807b56713031871979e8710b07d5a732b&quot; /&gt;
+    &lt;file name=&quot;l:\softl\old\yesterday images\abandoned_places-wallpaper-2560x1440.jpg&quot; checksum=&quot;770319cee2c2ddfa5c47651c460e443677918433&quot; /&gt;
+  &lt;/files&gt;
+&lt;/db&gt;</code></pre></div><br /><p>xml ddbb are created using Nic Jansma github.com/nicjansma/checksum-verifier, tho it&#039;s not mandatory</p><p>Hope I made myself clear, any help is much appreciated.<br />Thanks for reading!<br />JP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Offline</span></p></div>
+				<div class="postfootright">
+					<ul>
+						<li class="postreport"><span><a href="misc.php?report=9723">Report</a></span></li>
+						<li class="postquote"><span><a href="post.php?tid=2280&amp;qid=9723">Quote</a></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p9724" class="blockpost roweven">
+	<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=9724#p9724">17 Jun 2018 00:05</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong><a href="profile.php?id=3766">Pyprohly</a></strong></dt>
+						<dd class="usertitle"><strong>Member</strong></dd>
+						<dd class="postavatar"><img src="https://ss64.org/img/avatars/3766.gif?m=1509458187" width="50" height="50" alt="" /></dd>
+						<dd><span>Registered: 26 Nov 2014</span></dd>
+						<dd><span>Posts: 32</span></dd>
+						<dd class="usercontacts"><span class="email"><a href="mailto:pyprohly@outlook.com">Email</a></span></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re: Parse xml files and create symbolic links with results</h3>
+					<div class="postmsg">
+						<p>A batch script wouldn’t be appropriate for this kind of task so I’m going to give you this PowerShell script instead.</p><p>It uses New-Item to create the symbolic link. One quirk with New-Item is that the symbolic link must point to a valid path for the link to be created. If this is an issue for you, you can instead use cmd.exe to create the link by uncommenting and commenting out the relevant parts.</p><div class="codebox"><pre class="vscroll"><code>#requires -RunAsAdmin
+
+$InformationPreference = &#039;Continue&#039;
+$DebugPreference = &#039;Continue&#039;
+
+[xml]$source = Get-Content -LiteralPath real.xml
+[xml]$target = Get-Content -LiteralPath softl.xml
+
+foreach ($sourceEntry in $source.db.files.file) {
+	if ($links = $target.db.files.file | where checksum -eq $sourceEntry.checksum) {
+		foreach ($targetEntry in $links) {
+			$path = Split-Path $targetEntry.name
+			$name = Split-Path -Leaf $targetEntry.name
+			if ($path | Push-Location -PassThru -ErrorAction SilentlyContinue) {
+				$item = New-Item -Name $name -Type SymbolicLink -Value $sourceEntry.name
+				if ($item) {
+					Write-Debug &quot;Created $item &lt;==&gt; $($sourceEntry.name)&quot;
+				}
