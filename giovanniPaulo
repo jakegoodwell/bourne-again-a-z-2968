@@ -1,0 +1,19 @@
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/siteorigin-panels/css/front-flex.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thim-awesome-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/thim-framework/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpems-magnific-popup-css-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/wp-events-manager/inc/libraries//magnific-popup/css/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css'  href='//vjs.zencdn.net/5.4.6/video-js.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thim-css-style-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/themes/charitywp/assets/css/custom-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thim-style-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/themes/charitywp/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,italic,600,600italic,700,700italic,800,800italic&#038;subset=greek-ext,greek,cyrillic-ext,latin-ext,latin,vietnamese,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-roboto-slab-css'  href='//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&#038;subset=greek-ext,greek,cyrillic-ext,latin-ext,latin,vietnamese,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-smoothness-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='colorbox-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/slideshow-gallery/views/default/css/colorbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/slideshow-gallery/views/default/css/fontawesome.css' type='text/css' media='all' />
+<script type="text/javascript">
+        var ajax_url ="http://www.fondazionegiovannipaolo2.org/wp-admin/admin-ajax.php";
+        </script><script id="jquery-core" type='text/javascript' src='http://www.fondazionegiovannipaolo2.org/wp-includes/js/jquery/jquery.js'></script>
+<script id="jquery-migrate" type='text/javascript' src='http://www.fondazionegiovannipaolo2.org/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script id="tp-tools" type='text/javascript' src='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+<script id="revmin" type='text/javascript' src='http://www.fondazionegiovannipaolo2.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
