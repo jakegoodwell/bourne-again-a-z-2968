@@ -1,0 +1,27 @@
+</style><form id="null" action="?ui=html&amp;zy=c" method="post"><input type="hidden" name="at" 
+value="AF6bupMEQGDjO2eCIFVbwNYOiQvi288poQ"><font face=arial>Чтобы использовать Gmail в стандартном режиме, 
+необходимо включить JavaScript. Возможно, JavaScript отключен или не поддерживается вашим браузером. 
+Включите JavaScript в настройках браузера и <a href="">повторите попытку</a>.<p>Чтобы загрузить базовую 
+HTML-версию Gmail, для которой не требуется JavaScript, <input type="submit" value="нажмите здесь" 
+class="submit_as_link">.</p></font></form><form id="null" action="?ui=mobile&amp;zyp=c" method="post">
+<input type="hidden" name="at" value="AF6bupMEQGDjO2eCIFVbwNYOiQvi288poQ"><p><font face=arial>Чтобы
+просматривать Gmail на мобильном устройстве, <input type="submit" value="нажмите здесь" class="submit_as_link">.
+</font></p></form></noscript><div id="loading"><div class="cmsg"><div class="msg">Идет загрузка jeanpix244@gmail.com…
+</div><div class="lpb"><div id="lpt"></div></div></div><div class="msgb" style="bottom:10px"><div id="stb">
+<form id="bhlf" action="?ui=html&amp;zy=e" method="post"><input type="hidden" name="at" 
+value="AF6bupMEQGDjO2eCIFVbwNYOiQvi288poQ">Загрузка стандартного режима | <input type="submit" 
+value="Загрузить базовую HTML-версию" class="submit_as_link"> (при низкой скорости подключения к Интернету)
+</form></div></div><div id="loadingError" class="cmsg" style="clear:left;display:none">
+<p style="font-size:larger;margin:40px 0">Загрузка занимает больше времени, чем обычно. 
+<a href="https://mail.google.com/mail/u/0/" id="reloadurl"><b>Попробуйте перезагрузить страницу
+.</b></a></p><div>Если это не помогает, используйте описанные ниже способы.<ol><li><a href="?labs=0">
+Отключите экспериментальные функции Gmail и повторите попытку.</a></li><li><form id="null" action="?ui=html&amp;zy=d"
+method="post"><input type="hidden" name="at" value="AF6bupMEQGDjO2eCIFVbwNYOiQvi288poQ">Низкая скорость подключения к 
+Интернету? Попробуйте <input type="submit" value="базовая HTML-версия" class="submit_as_link">.</form><li>Дополнительные
+советы по устранению неполадок доступны в <a href="https://support.google.com/mail/answer/8767?src=sl&amp;hl=ru">
+справочном центре</a>.</ol></div></div></div><div id=roster_comm_link style=display:none></div><input
+type=text name=hist_state id=hist_state style=display:none><script type="text/javascript" 
+nonce="b7Ed1peWhhF7/0bSgw9Rdn88j+I">// <![CDATA[
+document.getElementById("reloadurl").onclick=function(){sc("GMAIL_SL","rld")};document.getElementById
+("bhlf").onsubmit=function(){_B
+_logImg_("lsimp","imp\x3dlm-ocls")};
